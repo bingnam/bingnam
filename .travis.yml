@@ -1,4 +1,4 @@
-language: go
+language go
 
 before_install:
 - echo "before_install"
@@ -9,6 +9,8 @@ install:
 before_script:
 - echo "before_script"
 
+script:
+- echo "script"
 
 after_success:
 - echo "after_success"
