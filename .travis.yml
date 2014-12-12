@@ -9,9 +9,6 @@ install:
 before_script:
 - echo "before_script"
 
-script:
-- echo "script"
-- cat /etc/issue
 
 after_success:
 - echo "after_success"
