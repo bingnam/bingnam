@@ -1,7 +1,7 @@
 language: go
 
 before_install:
-  echo: "before_install"
+  echo: echo "before_install"
 
 install:
 - echo "install"
