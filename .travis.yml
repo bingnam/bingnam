@@ -28,6 +28,7 @@ after_failure:
 - echo "after_failure"
 
 after_script:
+- echo $TRAVIS_TEST_RESULT
 - pwd
 - ls kkk
 - echo "after_script"
