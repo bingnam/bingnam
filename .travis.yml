@@ -7,7 +7,6 @@ before_install:
 install:
 - pwd
 - echo "install"
-- glsdflg
 
 before_script:
 - pwd
