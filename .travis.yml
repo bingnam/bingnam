@@ -2,7 +2,6 @@ language: java
 
 before_install:
 - pwd
-- ls erwer
 
 install:
 - pwd
@@ -15,9 +14,11 @@ script:
 
 after_success:
 - pwd
+- ls kkk
 
 after_failure:
 - pwd
 
 after_script:
 - pwd
+-ls kkk
