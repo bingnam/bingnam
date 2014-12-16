@@ -1,22 +1,22 @@
 language: go
 
 before_install:
-  echo: echo "before_install"
+- pwd
 
 install:
-- echo "install"
+- pwd
 
 before_script:
-- echo "before_script"
+- pwd
 
 script:
-- echo "script"
+- pwd
 
 after_success:
-- echo "after_success"
+- pwd
 
 after_failure:
-- echo "after_failure"
+- pwd
 
 after_script:
-- echo "after_script"
+- pwd
