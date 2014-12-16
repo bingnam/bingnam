@@ -16,6 +16,7 @@ script:
 - pwd
 - ls dfdsf
 - echo "script"
+- sdfdfasdf
 
 after_success:
 - pwd
