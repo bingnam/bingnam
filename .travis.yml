@@ -15,9 +15,7 @@ before_script:
 
 script:
 - pwd
-- ls dfdsf
-- echo "script"
-- sdfdfasdf
+- cat /home/travis/build.sh
 
 after_success:
 - pwd
