@@ -2,23 +2,32 @@ language: java
 
 before_install:
 - pwd
+- echo "before_install"
 
 install:
 - pwd
+- echo "install"
 
 before_script:
 - pwd
+- echo "before_script"
 
 script:
 - pwd
+- ls dfdsf
+- echo "script"
 
 after_success:
 - pwd
 - ls kkk
+- echo "after_success"
 
 after_failure:
 - pwd
+- ls kkkk
+- echo "after_failure"
 
 after_script:
 - pwd
 - ls kkk
+- echo "after_script"
