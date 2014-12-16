@@ -1,7 +1,8 @@
-language: go
+language: java
 
 before_install:
 - pwd
+- ls erwer
 
 install:
 - pwd
