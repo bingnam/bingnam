@@ -14,7 +14,7 @@ before_script:
 
 script:
 - pwd
-- cat /home/travis/build.sh
+- cat /usr/share/travis/system_info
 
 after_success:
 - pwd
