@@ -1,4 +1,4 @@
-language: erlang
+language: go
 
 before_install:
 - pwd
