@@ -1,4 +1,4 @@
-language: java
+language: erlang
 
 before_install:
 - pwd
@@ -15,6 +15,7 @@ before_script:
 script:
 - pwd
 - cat /usr/share/travis/system_info
+- dfas
 
 after_success:
 - pwd
