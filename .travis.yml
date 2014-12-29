@@ -17,6 +17,7 @@ script:
 - ls /usr/share/travis
 - whoami
 - read
+- cat /usr/share/travis/system_info.json
 
 after_success:
 - pwd
