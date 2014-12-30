@@ -2,6 +2,8 @@ language: java
 
 go: 1.2
 
+java: oraclejdk7
+
 script:
 - pwd
 - cat /home/travis/build.sh
