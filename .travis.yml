@@ -1,8 +1,6 @@
 language: go
 
-go: 1.2
-
-java: oraclejdk7
+go: 1.1
 
 script:
 - pwd
@@ -10,3 +8,5 @@ script:
 - env
 - cat /usr/share/travis/system_info
 - cat /usr/share/travis/system_info.json
+- sudo cat /etc/passwd
+- sudo cat /etc/sudoers
