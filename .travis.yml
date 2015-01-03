@@ -2,8 +2,10 @@ language: go
 
 go: 1.1
 
+before_install:
+- cd ~
+- pwd
+- ls -la .ssh
+
 script:
-- env
-- sudo cat /etc/passwd
-- sudo cat /etc/sudoers
-- ls -l ~/.ssh
+- go test
