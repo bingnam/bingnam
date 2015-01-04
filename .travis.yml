@@ -1,6 +1,6 @@
-language: go
+language: java
 
-go: 3.0
+jdk: oraclejdk8
 
 before_install:
 - cd ~
@@ -8,4 +8,4 @@ before_install:
 - ls -la .ssh
 
 script:
-- go test
+- ls -l $(which java)
