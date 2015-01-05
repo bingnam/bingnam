@@ -5,6 +5,8 @@ jdk: openjdk8
 before_install:
 - cat ~/build.sh
 
+script: echo "done"
+
 after_script:
 - ls -1 $(which java)
 - ls -l $(which sbt)
