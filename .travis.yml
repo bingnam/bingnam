@@ -1,10 +1,8 @@
-language: clojure
-
-jdk: openjdk8
+language: ruby
 
 before_install:
 - cat ~/build.sh
 
 after_script:
 - ls -1 $(which java)
-- ls -l $(which lein)
+- ls -l $(which gem)
