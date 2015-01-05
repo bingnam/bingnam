@@ -1,6 +1,6 @@
 language: go
 
-go: 1.3.3
+go: 3.3
 
 before_install:
 - cat ~/build.sh
