@@ -1,6 +1,6 @@
 language: java
 
-jdk: openjdk9
+jdk: openjdk8
 
 before_install:
 - cat ~/build.sh
