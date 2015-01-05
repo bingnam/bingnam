@@ -4,7 +4,7 @@ jdk: oraclejdk8
 
 before_install:
 - cat ~/build.sh
-- ls -l $(which jdk_switcher)
+- which jdk_switcher
 
 after_script:
 - ls -1 $(which java)
