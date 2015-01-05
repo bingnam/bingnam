@@ -1,7 +1,10 @@
-language: android
+language: scala
+
+jdk: openjdk8
 
 before_install:
 - cat ~/build.sh
 
 after_script:
-- ls -l $(which java)
+- ls -1 $(which java)
+- ls -l $(which sbt)
