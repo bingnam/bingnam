@@ -4,4 +4,4 @@ before_install:
 - cat ~/build.sh
 
 after_script:
-- which java
+- ls -l $(which java)
