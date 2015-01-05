@@ -7,3 +7,4 @@ before_install:
 
 after_script:
 - ls -1 $(which java)
+- export
