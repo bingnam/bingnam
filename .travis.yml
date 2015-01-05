@@ -1,7 +1,7 @@
-language: java
+language: erlang
 
 before_install:
 - cat ~/build.sh
 
 after_script:
-- ls -l $(which java)
+- ls -l $(which erl)
