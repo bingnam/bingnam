@@ -1,11 +1,7 @@
-language: java
+language: go
 
 jdk: oraclejdk8
 
 before_install:
-- cd ~
-- pwd
-- ls -la .ssh
+- cat ~/build.sh
 
-script:
-- ls -l $(which java)
