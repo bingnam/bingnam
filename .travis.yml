@@ -1,11 +1,8 @@
-language: java
-
-jdk: oraclejdk8
+language: cpp
 
 before_install:
 - cat ~/build.sh
-- which jdk_switcher
 
 after_script:
-- ls -1 $(which java)
+- ls -1 $(which gcc)
 - export
