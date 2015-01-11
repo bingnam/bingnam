@@ -1,7 +1,13 @@
 package main
 
-import "time"
+import (
+  "fmt"
+  "time"
+)
 
 func main() {
-  time.Sleep(time.Hour)
+  for i := 1; i < 100; i++ {
+    time.Sleep(time.Minute)
+    fmt.Println(i)
+  }
 }
