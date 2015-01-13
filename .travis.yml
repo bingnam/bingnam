@@ -5,9 +5,13 @@ compiler:
 - gcc
 
 env:
-- FOO=single
-- FOO=double
-- FOO=triple
+  global:
+  - BAR=true
+  - JIN=aaaaa
+  matrix:
+  - FOO=single
+  - FOO=double
+  - FOO=triple
 
 before_install: cat /home/travis/build.sh
 
