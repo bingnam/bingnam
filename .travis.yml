@@ -5,3 +5,5 @@ compiler:
 - gcc
 
 before_install: cat /home/travis/build.sh
+
+before_script: "/.-:?,;()[]{}<>=*+"
