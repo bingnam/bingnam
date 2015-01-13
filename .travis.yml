@@ -4,6 +4,11 @@ compiler:
 - clang
 - gcc
 
+env:
+- FOO=single
+- FOO=double
+- FOO=triple
+
 before_install: cat /home/travis/build.sh
 
 before_script: "/.-:?,;()[]{}<>=*+"
