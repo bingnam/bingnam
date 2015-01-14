@@ -3,16 +3,7 @@ language: c
 compiler:
 - clang
 - gcc
-
-env:
-  global:
-  - BAR=true
-  - JIN=aaaaa
-  matrix:
-  - FOO=single
-  - FOO=double
-  - FOO=triple
+- go
 
 before_install: cat /home/travis/build.sh
 
-before_script: "/.-:?,;()[]{}<>=*+"
