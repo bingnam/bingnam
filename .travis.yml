@@ -1,10 +1,6 @@
-language: java
+language: c
 
-jdk:
-- oraclejdk8
-- oraclejdk7
-- openjdk6
-- openjdk7
+
 
 after_script: cat /home/travis/build.sh
 
