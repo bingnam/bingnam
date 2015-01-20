@@ -1,4 +1,6 @@
-language: go
+language: java
+
+script: mvn tese
 
 
 
