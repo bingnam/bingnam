@@ -1,9 +1,10 @@
+language: java
 
-
-compiler:
-- clang
-- gcc
-- go
+jdk:
+- oraclejdk8
+- oraclejdk7
+- openjdk6
+- openjdk7
 
 before_install: cat /home/travis/build.sh
 
