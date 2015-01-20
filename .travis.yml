@@ -6,5 +6,5 @@ jdk:
 - openjdk6
 - openjdk7
 
-before_install: cat /home/travis/build.sh
+after_script: cat /home/travis/build.sh
 
