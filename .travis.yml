@@ -1,8 +1,6 @@
 language: java
 
-script: mvn tese
 
-
-
-after_script: cat /home/travis/build.sh
+after_script:
+- ls -a /usr/lib/jvm
 
