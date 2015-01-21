@@ -1,5 +1,5 @@
-language: java
+language: go
 
-script: ls -l
+
 
 after_script: cat /home/travis/build.sh
