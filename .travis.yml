@@ -1,5 +1,4 @@
-language: go
+language: c
 
-install: ls -l
 
 after_script: cat /home/travis/build.sh
