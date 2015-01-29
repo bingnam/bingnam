@@ -1,5 +1,7 @@
-language: c
-
-install: ls -l
+language: php
+php:
+  - 5.5
+  - 5.4
+  - hhvm
 
 after_script: cat /home/travis/build.sh
