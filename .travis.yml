@@ -5,4 +5,4 @@ php:
 
 after_script: 
 - cat /home/travis/build.sh
-- which phpenv
+- ls /home/travis/.phpenv/bin/phpenv/etc
