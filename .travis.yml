@@ -1,5 +1,4 @@
-language: java
+language: php
 
-jdk: oraclejdk8
 
 after_script: ls $HOME/.phpenv/plugins/php-build/share/php-build/definitions
