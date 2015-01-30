@@ -1,4 +1,5 @@
 language: php
 
+php: hhvm
 
-after_script: ls $HOME/.phpenv/plugins/php-build/share/php-build/definitions
+script: ls $HOME/.phpenv -l
