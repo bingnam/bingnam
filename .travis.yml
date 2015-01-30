@@ -2,4 +2,4 @@ language: java
 
 jdk: oraclejdk8
 
-after_script: cat $HOME/build.sh
+after_script: cat $HOME/.phpenv/plugins/php-build/share/php-build/definitions
