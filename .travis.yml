@@ -1,7 +1,4 @@
-language: php
+language: java
 
-php:
-- hhvm
+jdk: oraclejdk8
 
-script: 
-- ls /home/travis/.phpenv/versions
