@@ -1,7 +1,8 @@
-language: cpp
+language: php
 
-compiler:
-- gcc
-- clang
+php:
+- hhvm
 
-after_script: cat /home/travis/build.sh
+after_script: 
+- cat /home/travis/build.sh
+- which phpenv
