@@ -1,10 +1,7 @@
-language: php
-php:
-  - 5.1
-  - 5.2
-  - 5.3
-  - 5.5
-  - 5.4
-  - hhvm
+language: c
+
+compiler:
+- gcc
+- clang
 
 after_script: cat /home/travis/build.sh
