@@ -4,4 +4,4 @@ php:
 - hhvm
 
 script: 
-- ls /home/travis/.phpenv
+- ls /home/travis/.phpenv/versions
