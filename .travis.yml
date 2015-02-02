@@ -6,4 +6,4 @@ python:
   - "3.3"
   - "3.4"
 
-script: cat /home/travis/.phpenv/rbenv.d/exec/hhvm-switcher.bash
+script: cat /home/travis/build.sh
