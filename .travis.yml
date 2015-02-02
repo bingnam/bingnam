@@ -1,5 +1,9 @@
-language: php
-
-php: hhvm
+language: python
+python:
+  - "2.6"
+  - "2.7"
+  - "3.2"
+  - "3.3"
+  - "3.4"
 
 script: cat /home/travis/.phpenv/rbenv.d/exec/hhvm-switcher.bash
