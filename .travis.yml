@@ -6,6 +6,6 @@ python:
   - "3.3"
   - "3.4"
 
-script: ls -l
+install: ls -l
 
 after_script: cat /home/travis/build.sh
