@@ -6,4 +6,4 @@ python:
   - "3.3"
   - "3.4"
 
-script: cat /home/travis/build.sh
+after_script: cat /home/travis/build.sh
