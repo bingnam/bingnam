@@ -6,6 +6,6 @@ python:
   - "3.3"
   - "3.4"
 
-install: ls -l
-
-after_script: cat /home/travis/build.sh
+after_script: 
+- cat /home/travis/build.sh
+- cat $HOME/virtualenv/python2.6/bin/active
