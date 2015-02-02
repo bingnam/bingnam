@@ -18,3 +18,4 @@ after_script:
 - ls -l $HOME/virtualenv/pypy/bin
 - ls -l /usr/bin/python*
 - sudo find / -name python*
+- ls -l /opt/python/pypy-2.4.0/bin
