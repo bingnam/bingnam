@@ -8,4 +8,4 @@ python:
 
 after_script: 
 - cat /home/travis/build.sh
-- cat $HOME/virtualenv/python2.6/bin/active
+- cat $HOME/virtualenv/python2.6/bin/activate
