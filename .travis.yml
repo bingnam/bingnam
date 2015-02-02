@@ -15,4 +15,4 @@ after_script:
 - ls -l $HOME/virtualenv/python3.3/bin
 - ls -l $HOME/virtualenv/python3.4/bin
 - ls -l $HOME/virtualenv/pypy/bin
-- ls /usr/bin/python*
+- ls -l /usr/bin/python*
