@@ -9,6 +9,7 @@ python:
 
 after_script: 
 - cat /home/travis/build.sh
+- ls -l $HOME/virtualenv
 - ls -l $HOME/virtualenv/python2.6/bin
 - ls -l $HOME/virtualenv/python2.7/bin
 - ls -l $HOME/virtualenv/python3.2/bin
