@@ -7,3 +7,6 @@ rvm:
   - ruby-head
   - jruby-head
   - ree
+
+after_script:
+- cat /home/travis/build.sh
