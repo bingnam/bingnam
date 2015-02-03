@@ -17,4 +17,4 @@ script: ls -l
 after_script:
 - cat /home/travis/build.sh
 - cat $rvm_path/user/db
-- echo "rvm_path"
+- echo "$rvm_path"
