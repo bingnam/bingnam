@@ -12,7 +12,7 @@ gemfile:
   - Gemfile
   - gemfiles/eventmachine-pre
 
-install: ls -l
+script: ls -l
 
 after_script:
 - cat /home/travis/build.sh
