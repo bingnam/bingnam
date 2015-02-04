@@ -1,20 +1,14 @@
 language: ruby
 rvm:
-  - 2.1.0
   - jruby-18mode
   - jruby-19mode
-  - rbx-2
-  - ruby-head
-  - jruby-head
-  - ree
 
-gemfile:
-  - Gemfile
-  - gemfiles/eventmachine-pre
+jdk:
+- oraclejdk8
+- openjdk7
+- openjdk6
+- oraclejdk7
 
-script: ls -l
 
 after_script:
 - cat /home/travis/build.sh
-- cat $rvm_path/user/db
-- echo "$rvm_path"
