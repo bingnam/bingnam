@@ -3,12 +3,14 @@ language: php
 php:
   - hhvm
 
-script: pwd
+script: 
+- cd $HOME
+- tar zcf archive.tar.gz .phpenv
 
 after_script:
 - ls -l $HOME/.phpenv/versions
-- cd $HOME
-- tar zcf archive.tar.gz .phpenv
+
+
 
 deploy:
   provider: releases
