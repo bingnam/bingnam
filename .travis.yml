@@ -1,18 +1,12 @@
 language: ruby
 
-rvm:
-- jruby-17mode
-- jruby-18mode
-- jruby-19mode
+
 
 jdk:
 - oraclejdk8
 - openjdk7
 - openjdk6
 
-gemfile:
-- Gemfile
-- gemfiles/event.gemfile
 
 after_script:
 - cat $HOME/build.sh
