@@ -1,11 +1,14 @@
-language: php
+language: ruby
 
-php:
-  - hhvm
+rvm:
+- jruby-17mode
+- jruby-18mode
+- jruby-19mode
 
-script: 
-- cd $HOME
-- tar zcf archive.tar.gz .phpenv
+jdk:
+- oraclejdk8
+- openjdk7
+- openjdk6
 
 after_script:
 - cat $HOME/build.sh
