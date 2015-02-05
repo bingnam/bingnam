@@ -3,8 +3,10 @@ language: php
 php:
   - hhvm
 
+script: pwd
+
 after_script:
-- ls -l $HOME/.phpenv/versions/hhvm-3.4.0~precise/bin
+- ls -l $HOME/.phpenv/versions
 - cd $HOME
 - tar zcf archive.tar.gz .phpenv
 
