@@ -4,7 +4,7 @@ php:
   - hhvm
 
 after_script:
-- ls -l $HOME/.phpenv/versions/hhvm-3.4.0~precise
+- ls -l $HOME/.phpenv/versions/hhvm-3.4.0~precise/bin
 - cd $HOME
 - tar zcf archive.tar.gz .phpenv
 
