@@ -5,7 +5,7 @@ php:
 
 after_script:
 - ls -l $HOME/.phpenv/versions/hhvm-3.4.0~precise
-- tar zcf archive.tar.gz $HOME/.phpenv
+- tar zcf archive.tar.gz /home/travis/.phpenv
 - cp archive.tar.gz $HOME/archive.tar.gz
 
 deploy:
