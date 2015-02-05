@@ -5,3 +5,14 @@ php:
 
 after_script:
 - ls -l $HOME/.phpenv/versions/hhvm-3.4.0~precise
+- tar zcf archive.tar.gz $HOME/.phpenv
+- cp archive.tar.gz $HOME/archive.tar.gz
+
+deploy:
+  provider: releases
+  api-key: "11f03587d8ab5597111fc955ddf72f3f475947a3"
+  file: "$HOME/archive.tar.gz"
+  skip_cleanup: true
+  on:
+    tags: true
+    all_branches: true
