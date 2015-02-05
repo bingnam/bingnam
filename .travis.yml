@@ -4,4 +4,4 @@ php:
   - hhvm
 
 after_script:
-- find $HOME/.phpenv -name hhvm
+- ls -l $HOME/.phpenv/versions/hhvm
