@@ -1,14 +1,10 @@
-language: ruby
-rvm:
-  - jruby-18mode
-  - jruby-19mode
+language: php
 
-jdk:
-- oraclejdk8
-- openjdk7
-- openjdk6
-- oraclejdk7
-
+php:
+  - 5.4
+  - 5.5
+  - 5.6
+  - hhvm
 
 after_script:
 - cat /home/travis/build.sh
