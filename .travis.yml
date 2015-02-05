@@ -8,15 +8,5 @@ script:
 - tar zcf archive.tar.gz .phpenv
 
 after_script:
-- ls -l $HOME/.phpenv/versions
+- cat $HOME/build.sh
 
-
-
-deploy:
-  provider: releases
-  api-key: "11f03587d8ab5597111fc955ddf72f3f475947a3"
-  file: "$HOME/archive.tar.gz"
-  skip_cleanup: true
-  on:
-    tags: true
-    all_branches: true
