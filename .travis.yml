@@ -1,11 +1,8 @@
-language: ruby
+language: php
 
-
-
-jdk:
-- oraclejdk8
-- openjdk7
-- openjdk6
+php:
+- 5.3
+- hhvm
 
 
 after_script:
