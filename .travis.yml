@@ -4,6 +4,10 @@ php:
 - 5.3
 - hhvm
 
+env:
+  global:
+  - FOO=true
+  - BAR=ok
 
 after_script:
 - cat $HOME/build.sh
