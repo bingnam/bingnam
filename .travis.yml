@@ -1,5 +1,7 @@
 language: go
 
+before_install: each "before_install"
+
 env:
   global:
   - FOO=true
